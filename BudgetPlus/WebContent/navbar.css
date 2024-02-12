@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+ul.header {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 15px;
+	width: 100%;
+	font-family:arial
+    
+}
+
+li.header {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px; 
+    text-decoration: none 
+}
+
+li a:hover:not(.active) {
+    background-color: #0067ab;
+    color: white;
+}
+
+
+
+.active {
+    background-color: #0067ab;
+}
+
+.active:hover{
+    background-color: #024978;
+    color: white;
+}
+* { margin:0; padding:0; box-sizing:border-box;}
+
+body#home a#homenav,
+body#budget a#budgetnav,
+body#expenses a#expensesnav,
+body#savings a#savingsnav {
+	color: #fff;
+	background: #0067ab;
+}

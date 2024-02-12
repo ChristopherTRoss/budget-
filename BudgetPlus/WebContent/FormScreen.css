@@ -1,0 +1,129 @@
+<style>
+
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+   display: block;
+ position: relative; left: 500px; top: -10px;
+ text-align:left;
+  
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+.form-style-1 textarea,
+.form-style-1 select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:px solid #BEBEBE;
+    padding: 12px;
+    font-size: 12px;
+    margin:0px;
+    outline: none;
+	width: 300px;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 12px;
+    width: 300px;
+    background-color: #fff;
+    
+    background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 16px) calc(1em + 6px),
+    calc(100% - 11px) calc(1em + 6px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 2.5em;
+  background-repeat: no-repeat;
+}
+
+.form-style-1 input[type=text]:focus,  
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #0067ab;
+    -webkit-box-shadow: 0 0 8px #0067ab;
+    box-shadow: 0 0 8px #0067ab;
+    border: 1px solid #0067ab;
+}
+.form-style-1 .field-divided{
+    width: 100%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #0067ab;
+    padding: 12px 15px 12px 15px;
+    font-size: 13px;
+    border: none;
+    color: #fff;
+	width: 300px;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background-color: #024978;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+
+div.well{
+    background-color: white;
+    
+    width: 30em;
+    position: relative;
+    top: 30px;
+    left: 180px;
+    
+}
+div {
+    padding: 20px;
+	padding-top: 10px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+}
+
+form {
+    text-align: center;
+    }
+
+
+</style>
+
+

@@ -1,0 +1,32 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Savings</title>
+     <link rel="stylesheet" href="FormScreen.css" type="text/css"/>
+     <link rel="stylesheet" href="navbar.css" type="text/css"/>
+ </head>
+<body id = "savings">
+	<ul class="header">
+      <li class="header"><a href="index.jsp" id ="homenav">Home</a></li>
+      <li class="header"><a href="budget.html" id ="budgetnav">Budget</a></li>
+      <li class="header"><a href="expenses.html" id ="expensesnav">Expenses</a></li>
+      <li class="header"><a href="savings.html" id ="savingsnav">Savings</a></li>
+      <li style="float:right"><a class="active" href="login.html">Sign Out</a></li>
+    </ul>
+    <form action="SavingsServlet" method="post"> 
+	<div>
+	<ul class="form-style-1">
+	<br><br>
+	<h1>Savings</h1>
+	<br><br><br>
+		<text style="padding-right:98px;font-weight:bold; font-size:20px">Enter Monthy Savings:</text><br><br>
+		<input type="number" name="savings" placeholder="Enter Savings Amount" /><br/><br />
+		<input type="submit" value="Submit" />
+	</ul>
+	</div>
+    </form>
+	<style>
+	 html {background-color: #ededed;}
+	 </style>
+</body>
+</html>
