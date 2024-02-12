@@ -1,4 +1,10 @@
 Budget+
+
+Plan out monthly expenses
+- Budget 
+- Savings 
+- Track/categorize expenses
+
 1. Click account registration and input username, password, and email and click submit.
 2. Use your account information on the login screen and click submit.
 3. You will be directed to the home dashboard after logging in.
