@@ -16,4 +16,5 @@ Plan out monthly expenses
 9. Click logout to log out of your account and go back to the login screen 
 
 Entity Relationship Diagram
+
 ![BudgetPlus](https://github.com/ChristopherTRoss/budget-plus/assets/22307796/6d3e0dbc-f4bf-40da-83c7-4be4ea74a3f2)
